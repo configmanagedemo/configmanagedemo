@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/configmanagedemo/frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/configmanagedemo/backend.git
+[submodule "docker"]
+	path = docker
+	url = https://github.com/configmanagedemo/docker.git
