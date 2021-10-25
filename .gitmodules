@@ -7,3 +7,6 @@
 [submodule "docker"]
 	path = docker
 	url = https://github.com/configmanagedemo/docker.git
+[submodule "tool"]
+	path = tool
+	url = https://github.com/configmanagedemo/tool.git
