@@ -147,7 +147,7 @@ password=""
 
 ![配置转换](./images/2.png)
 
-用户需要将源码根目录下的`config-manage-tool`目录下载到本地。如果用户是第一次使用转表工具，需要安装python2.7和xlrd库，我们已经在`Tools/Install`目录提供`python-2.7.14.amd64.msi`和`xlrd_Install.bat`两个对应安装文件供用户安装使用。  
+将`https://github.com/configmanagedemo/tool.git`克隆或下载到本地。如果用户是第一次使用转表工具，需要安装python2.7和xlrd库，我们已经在`Tools/Install`目录提供`python-2.7.14.amd64.msi`和`xlrd_Install.bat`两个对应安装文件供用户安装使用。  
 
 将`example.xlsm`配置文件放到`Excels`目录下，双击`TableGen.bat`执行配置转换。转换完成后，在`Output/DotB`目录下生成了对应的二进制文件`example.b`。在`Output/Struct`目录下生成了配置的结构文件`example.tars`，示例中的结构如下所示。  
 
